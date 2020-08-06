@@ -1,0 +1,1056 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "algs-n-ds",
+        "directory": "/Users/ole.magnus.aker/Dev/personal/algs-n-ds",
+        "workspaceDir": "/Users/ole.magnus.aker/Dev/personal/algs-n-ds",
+        "sources": [
+            "/Users/ole.magnus.aker/Dev/personal/algs-n-ds/src/main/java",
+            "/Users/ole.magnus.aker/Dev/personal/algs-n-ds/src/main/scala"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/1418c956704990564fb9dfac5960647ca54b5a91/scala-library-2.13.1.jar"
+        ],
+        "out": "/Users/ole.magnus.aker/Dev/personal/algs-n-ds/.bloop/algs-n-ds/build",
+        "classesDir": "/Users/ole.magnus.aker/Dev/personal/algs-n-ds/.bloop/algs-n-ds/build/classes",
+        "resources": [
+            "/Users/ole.magnus.aker/Dev/personal/algs-n-ds/src/main/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.1",
+            "options": [
+                "-deprecation",
+                "-unchecked"
+            ],
+            "jars": [
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.13.1/2669fd1abfe2c76de9201174255f8454aa25c3e2/scala-compiler-2.13.1.jar",
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-sbt/compiler-bridge_2.13/1.3.0/79fe94dc7d1a6ad666db25c475e0f14a800377c/compiler-bridge_2.13-1.3.0-sources.jar",
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-sbt/compiler-interface/1.3.0/b0e0df671d66955ec909847dc4a19d5d2c6facba/compiler-interface-1.3.0.jar",
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.1/c4123cd3d2a7502d16f443cd52fb23763bef8402/scala-reflect-2.13.1.jar",
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/1418c956704990564fb9dfac5960647ca54b5a91/scala-library-2.13.1.jar",
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/c3aeac59c022bdc497c8c48ed86fa50450e4896a/jline-2.14.6.jar",
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.12/633f12e3ab3cdf2d151b4061fff389c66ee8d01b/jansi-1.12.jar",
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.7.0/dbb5e9230a91f2a6d011096c2b9c10a5a6e5f7f2/protobuf-java-3.7.0.jar",
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-sbt/util-interface/1.3.0/edc7556e112da142bf7e9ead1440d024fd3314c4/util-interface-1.3.0.jar"
+            ],
+            "setup": {
+                "order": "java->scala",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-source",
+                "1.8",
+                "-target",
+                "1.8",
+                "-g",
+                "-sourcepath",
+                "-proc:none",
+                "-XDuseUnsharedTable=true"
+            ]
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/1418c956704990564fb9dfac5960647ca54b5a91/scala-library-2.13.1.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "com.openhtmltopdf",
+                    "name": "openhtmltopdf-core",
+                    "version": "0.0.1-RC13",
+                    "artifacts": [
+                        {
+                            "name": "openhtmltopdf-core",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.openhtmltopdf/openhtmltopdf-core/0.0.1-RC13/2d3108c06026884114f56c85d2a3db72a6da7d12/openhtmltopdf-core-0.0.1-RC13.jar"
+                        },
+                        {
+                            "name": "openhtmltopdf-core",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.openhtmltopdf/openhtmltopdf-core/0.0.1-RC13/5568e735fee3fd0f8654bc7db5d7249cd0c7b415/openhtmltopdf-core-0.0.1-RC13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-xwiki-macros",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-xwiki-macros",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-xwiki-macros/0.35.10/bb2ac740754e17d12e0fa4271ec5449db27a6b28/flexmark-ext-xwiki-macros-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-xwiki-macros",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-xwiki-macros/0.35.10/72533f4171c223c3984d1ae3dcf101b299125b43/flexmark-ext-xwiki-macros-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-profile-pegdown",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-profile-pegdown",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-profile-pegdown/0.35.10/679612440466feeef73612bedcab98d3d1c00696/flexmark-profile-pegdown-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-profile-pegdown",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-profile-pegdown/0.35.10/4a473099b973fb5772152f9c16549d16af7d1fce/flexmark-profile-pegdown-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-media-tags",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-media-tags",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-media-tags/0.35.10/9d4c5fb6f2ace16727e593f1cbe0afa66e873405/flexmark-ext-media-tags-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-media-tags",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-media-tags/0.35.10/6d81f22c1ea6c8cf84f5c687b35e053860f05901/flexmark-ext-media-tags-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-gitlab",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-gitlab",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gitlab/0.35.10/2e48810a0e6d101e7a84ae05151ab1cee1cdb13e/flexmark-ext-gitlab-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-gitlab",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gitlab/0.35.10/c4fc03b8ddc6463dfa26d2a26fa4670f68936753/flexmark-ext-gitlab-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-superscript",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-superscript",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-superscript/0.35.10/5af389551f2a4d69239074e790c811f4a5205631/flexmark-ext-superscript-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-superscript",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-superscript/0.35.10/28d046be89684145e932dbb65f0e08534e46ccee/flexmark-ext-superscript-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.openhtmltopdf",
+                    "name": "openhtmltopdf-rtl-support",
+                    "version": "0.0.1-RC13",
+                    "artifacts": [
+                        {
+                            "name": "openhtmltopdf-rtl-support",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.openhtmltopdf/openhtmltopdf-rtl-support/0.0.1-RC13/bc23d414d5b5c888d35b76d2f53e3ba2d69952c3/openhtmltopdf-rtl-support-0.0.1-RC13.jar"
+                        },
+                        {
+                            "name": "openhtmltopdf-rtl-support",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.openhtmltopdf/openhtmltopdf-rtl-support/0.0.1-RC13/3a0863c577a7a28ab83e4720421f8aa67f225b0c/openhtmltopdf-rtl-support-0.0.1-RC13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-autolink",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-autolink",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-autolink/0.35.10/539f0ba2775ff1b2b91f3879d7be956427c1a996/flexmark-ext-autolink-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-autolink",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-autolink/0.35.10/b5ce196ef9a562c440712d66fc14f99debdbea5/flexmark-ext-autolink-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.pdfbox",
+                    "name": "fontbox",
+                    "version": "2.0.8",
+                    "artifacts": [
+                        {
+                            "name": "fontbox",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/fontbox/2.0.8/52f852fcfc7481d45efdffd224eb78b85981b17b/fontbox-2.0.8.jar"
+                        },
+                        {
+                            "name": "fontbox",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/fontbox/2.0.8/7dccbe4f8b03221e8fe36ceebb17387642c610cb/fontbox-2.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-escaped-character",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-escaped-character",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-escaped-character/0.35.10/50ec93ee73413456cb89456cfd01d030850d0f2b/flexmark-ext-escaped-character-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-escaped-character",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-escaped-character/0.35.10/c89f8573927333a53feed7ee06040d4d053c4a52/flexmark-ext-escaped-character-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-macros",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-macros",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-macros/0.35.10/11c39e8a7096ee94b04be4f0ee63b07cc6bdf3c9/flexmark-ext-macros-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-macros",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-macros/0.35.10/165789788d3ee649573a55c653daf0d3b006e981/flexmark-ext-macros-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-pdf-converter",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-pdf-converter",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-pdf-converter/0.35.10/ba75a2bc5f7101398c9bb9acc5147dad12d12861/flexmark-pdf-converter-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-pdf-converter",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-pdf-converter/0.35.10/83f866ed9dd01bc486d1f2293942dc29b3a423b6/flexmark-pdf-converter-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-definition",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-definition",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-definition/0.35.10/db259c7e78596a962c8e28da18e86dfb785ad060/flexmark-ext-definition-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-definition",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-definition/0.35.10/d5a14d4afa01cae3c14e020769c2c1f8bcc25ab4/flexmark-ext-definition-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-toc",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-toc",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-toc/0.35.10/f9653bf91db2767bf7d376cbbd48edc031a45d9e/flexmark-ext-toc-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-toc",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-toc/0.35.10/2fd5109ff00086f64f4ae86f5ccbc8a1ce5bc8e8/flexmark-ext-toc-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-admonition",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-admonition",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-admonition/0.35.10/a6ea91c079e6eb7099b6ac13dbb89e8910c182c6/flexmark-ext-admonition-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-admonition",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-admonition/0.35.10/798f4c22122a6be840fdc1428ebb365c9a2549a2/flexmark-ext-admonition-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-gfm-tasklist",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-gfm-tasklist",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-tasklist/0.35.10/af06d22eadba49bca3a931bb0acfb2629e74e02f/flexmark-ext-gfm-tasklist-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-gfm-tasklist",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-tasklist/0.35.10/5d70017c1b3371678e17d0147c5ca49377578f53/flexmark-ext-gfm-tasklist-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-enumerated-reference",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-enumerated-reference",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-enumerated-reference/0.35.10/99f646d77d8d81b6843c09f2da97a64eba37c1f1/flexmark-ext-enumerated-reference-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-enumerated-reference",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-enumerated-reference/0.35.10/99138bdea5977fb835b31ec44ca6a020a68f5d2c/flexmark-ext-enumerated-reference-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-tables",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-tables",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-tables/0.35.10/5d8e7fd544aac7e33a1ef2ab5b7c1e0643ff1083/flexmark-ext-tables-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-tables",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-tables/0.35.10/446c5f63362bbd1dca3877c93f7dc42a9ff608ff/flexmark-ext-tables-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.pdfbox",
+                    "name": "pdfbox",
+                    "version": "2.0.8",
+                    "artifacts": [
+                        {
+                            "name": "pdfbox",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/2.0.8/17bdf273d66f3afe41eedb9d3ab6a7b819c44a0c/pdfbox-2.0.8.jar"
+                        },
+                        {
+                            "name": "pdfbox",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/2.0.8/ae22cfb61035ff494f99dec00144286c20e5c1f2/pdfbox-2.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.13",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.13",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.13/3.1.2/8781a926427bd00d02ddec644b1cfdb96be8ec54/scalatest_2.13-3.1.2.jar"
+                        },
+                        {
+                            "name": "scalatest_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.13/3.1.2/492c65c15612140038b9a25985e84a294a0b5c09/scalatest_2.13-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.pdfbox",
+                    "name": "xmpbox",
+                    "version": "2.0.8",
+                    "artifacts": [
+                        {
+                            "name": "xmpbox",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/xmpbox/2.0.8/bcce394a05b96c6155d27e144eb6e359ee7ff6b1/xmpbox-2.0.8.jar"
+                        },
+                        {
+                            "name": "xmpbox",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/xmpbox/2.0.8/dcdb58a1652b06b0075c49fcf0854bc69a365162/xmpbox-2.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-youtrack-converter",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-youtrack-converter",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-youtrack-converter/0.35.10/43faccb4d0cf78465db240a376013870f30e1fe4/flexmark-youtrack-converter-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-youtrack-converter",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-youtrack-converter/0.35.10/26ae3c2c2471af860e492c69dd7e27dd3e4b0ef5/flexmark-youtrack-converter-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-aside",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-aside",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-aside/0.35.10/c0743c5b46cab383eae5bf8d3779487c2cd7b09e/flexmark-ext-aside-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-aside",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-aside/0.35.10/4a2adf859e4917f482c76de0ade86d90326cf614/flexmark-ext-aside-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-util",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-util",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util/0.35.10/bb130279174ca616d6dbb80d21cbf3b8f95890a5/flexmark-util-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-util",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-util/0.35.10/ac236c7f33c01c23a4fefd6334fbd939b2bd552f/flexmark-util-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatestplus",
+                    "name": "scalacheck-1-14_2.13",
+                    "version": "3.1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "scalacheck-1-14_2.13",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scalatestplus/scalacheck-1-14_2.13/3.1.2.0/cb389a5493f5c525636ed0787ca75b8baf88479/scalacheck-1-14_2.13-3.1.2.0.jar"
+                        },
+                        {
+                            "name": "scalacheck-1-14_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scalatestplus/scalacheck-1-14_2.13/3.1.2.0/5355d7d0e0ab4c606e114f6221bbcd6b251a10dc/scalacheck-1-14_2.13-3.1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-wikilink",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-wikilink",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-wikilink/0.35.10/d74a9ed5db37149de7660a8ec37a3a439dce9186/flexmark-ext-wikilink-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-wikilink",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-wikilink/0.35.10/405104ff4d4d8eaa447779a365edec9c994ca5b0/flexmark-ext-wikilink-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-typographic",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-typographic",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-typographic/0.35.10/dbeca72f81363b79ab29563c58bc46346af27ed4/flexmark-ext-typographic-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-typographic",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-typographic/0.35.10/89e548d7de9d885bf908ecd49add200ea04eeb51/flexmark-ext-typographic-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.openhtmltopdf",
+                    "name": "openhtmltopdf-jsoup-dom-converter",
+                    "version": "0.0.1-RC13",
+                    "artifacts": [
+                        {
+                            "name": "openhtmltopdf-jsoup-dom-converter",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.openhtmltopdf/openhtmltopdf-jsoup-dom-converter/0.0.1-RC13/2887c313e229da6667bd18c3698959191b6da787/openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar"
+                        },
+                        {
+                            "name": "openhtmltopdf-jsoup-dom-converter",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.openhtmltopdf/openhtmltopdf-jsoup-dom-converter/0.0.1-RC13/2c2dfe41b86428c83b447f023a87dea1b8f0ea95/openhtmltopdf-jsoup-dom-converter-0.0.1-RC13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jsoup",
+                    "name": "jsoup",
+                    "version": "1.10.2",
+                    "artifacts": [
+                        {
+                            "name": "jsoup",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/33ee82e324f4b1e40167f3dc5e01234a1c5cab61/jsoup-1.10.2.jar"
+                        },
+                        {
+                            "name": "jsoup",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/705a50ce237c266feaa279797712cb6bb6c1f34d/jsoup-1.10.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/1418c956704990564fb9dfac5960647ca54b5a91/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.1/43c50cb5c8a9112d13d219d1c3d75694832171c/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-gfm-strikethrough",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-gfm-strikethrough",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough/0.35.10/380ade291de6242838fd0434122863b202842ed5/flexmark-ext-gfm-strikethrough-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-gfm-strikethrough",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough/0.35.10/b3c099154aa5119d11c237a442c7ea3b08110a86/flexmark-ext-gfm-strikethrough-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "log4j",
+                    "name": "log4j",
+                    "version": "1.2.17",
+                    "artifacts": [
+                        {
+                            "name": "log4j",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar"
+                        },
+                        {
+                            "name": "log4j",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-gfm-tables",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-gfm-tables",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-tables/0.35.10/b8efd11929a472f61068d149e79da35f3ba5eda2/flexmark-ext-gfm-tables-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-gfm-tables",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-tables/0.35.10/45b8c8d7d88fd0f9f2556a393dc6d0f8eeb434d6/flexmark-ext-gfm-tables-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-anchorlink",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-anchorlink",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-anchorlink/0.35.10/66dfff694fc82a26134d4ec9ad768c6b2186165d/flexmark-ext-anchorlink-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-anchorlink",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-anchorlink/0.35.10/eaa061b327a2c51399dea615ddcd53165a1af9d5/flexmark-ext-anchorlink-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-yaml-front-matter",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-yaml-front-matter",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-yaml-front-matter/0.35.10/3d85a22652d764528cb76af7aea900317e59e1c4/flexmark-ext-yaml-front-matter-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-yaml-front-matter",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-yaml-front-matter/0.35.10/c208985a4a2dbe3c6a38ee97c746638d8350fb7a/flexmark-ext-yaml-front-matter-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-gfm-users",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-gfm-users",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-users/0.35.10/1686d39206806459eb9af8c0530c3747b11dfcf8/flexmark-ext-gfm-users-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-gfm-users",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-users/0.35.10/1636f5fe568dbd295f9e479bf29710588a50935e/flexmark-ext-gfm-users-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-attributes",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-attributes",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-attributes/0.35.10/1dab5ad82aaf8c2f7237b10e2be1944af282d6d1/flexmark-ext-attributes-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-attributes",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-attributes/0.35.10/644b13a485bf395ac771a6e956c3a0b69de1324/flexmark-ext-attributes-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.13",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.13",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.13/3.1.2/c3ef1b092f0ed6c483e30cdf4c446e14d9b84969/scalactic_2.13-3.1.2.jar"
+                        },
+                        {
+                            "name": "scalactic_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.13/3.1.2/a265d65aec5dd735d994ff5a1f5e48bed04d57b/scalactic_2.13-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.2/280d2a51b3130cf869cb416404b2c0e44e433f3e/scala-library-2.13.2.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.2/3486811eaca109f05fd7c8a3d772c141ab9d368f/scala-library-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-all",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-all",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-all/0.35.10/7c681f6bb30ec7bda6904e270808cdfe51a8984e/flexmark-all-0.35.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-jekyll-front-matter",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-jekyll-front-matter",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-jekyll-front-matter/0.35.10/bb030ae81a5c927fce17ff1d390918312f4ca321/flexmark-ext-jekyll-front-matter-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-jekyll-front-matter",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-jekyll-front-matter/0.35.10/c77c512c6ffcee0f61c8330f58a9539e842a5005/flexmark-ext-jekyll-front-matter-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-footnotes",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-footnotes",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-footnotes/0.35.10/9a3d9aa42216930da8b1f54862b04af6b83c4eee/flexmark-ext-footnotes-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-footnotes",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-footnotes/0.35.10/fab1f2f35eb2bde5506147e3a71822c988e7bc51/flexmark-ext-footnotes-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalacheck",
+                    "name": "scalacheck_2.13",
+                    "version": "1.14.3",
+                    "artifacts": [
+                        {
+                            "name": "scalacheck_2.13",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scalacheck/scalacheck_2.13/1.14.3/2d7e2b48e9e3412316dcfa1dec14b31b69da96a8/scalacheck_2.13-1.14.3.jar"
+                        },
+                        {
+                            "name": "scalacheck_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scalacheck/scalacheck_2.13/1.14.3/fb7c96d811d94ebbe00d3241b97d8d287e3346cd/scalacheck_2.13-1.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark/0.35.10/8b43abb0fc4216ad6bb3664cd6c04088a71273bb/flexmark-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark/0.35.10/92352ed89f716953c3b60f6a7e3f21bf21772a5/flexmark-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-gfm-issues",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-gfm-issues",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-issues/0.35.10/bf8ea7038c219c8a07636cf39091e2954741439/flexmark-ext-gfm-issues-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-gfm-issues",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-gfm-issues/0.35.10/b01ab48bb4f7898f783558029d78174fcde3b370/flexmark-ext-gfm-issues-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-sbt/test-interface/1.0/a3f14d010c4cb32071f863d97291df31603b521/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-sbt/test-interface/1.0/d44b23e9e3419ad0e00b91bba764a48d43075000/test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.2/2a6dd4989a27aba0dd43bc297045cff633d70064/scala-reflect-2.13.2.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.2/11f47bb48cc482aee6a47fb058eca05e576e7411/scala-reflect-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-html-parser",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-html-parser",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-html-parser/0.35.10/2b2430f770d076ad2943ce4d7125a2dc35e4978d/flexmark-html-parser-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-html-parser",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-html-parser/0.35.10/9c9b8018d8240b59d631546b97fda15a3b5c7e37/flexmark-html-parser-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-formatter",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-formatter",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-formatter/0.35.10/90731d575b6068c82da96bdbf472bf04ff691604/flexmark-formatter-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-formatter",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-formatter/0.35.10/69357aef3fe7fb6ffe2179a1f7982fe612bd9d61/flexmark-formatter-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-ins",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-ins",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-ins/0.35.10/a386de39aa604b9ab996b6b2f3e2f872911cb59f/flexmark-ext-ins-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-ins",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-ins/0.35.10/6ac13d1d4c739865bfd1578d452e37f8ca57b046/flexmark-ext-ins-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-jira-converter",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-jira-converter",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-jira-converter/0.35.10/47ac87bf8d576591a50ef4d128d8083aa40acf07/flexmark-jira-converter-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-jira-converter",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-jira-converter/0.35.10/a15cf87eed88085c9ab8da5d8c7d7b553c8252db/flexmark-jira-converter-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "de.rototor.pdfbox",
+                    "name": "graphics2d",
+                    "version": "0.12",
+                    "artifacts": [
+                        {
+                            "name": "graphics2d",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/de.rototor.pdfbox/graphics2d/0.12/7df4072cd4d94233bdb9921b07ebaeb8a8508603/graphics2d-0.12.jar"
+                        },
+                        {
+                            "name": "graphics2d",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/de.rototor.pdfbox/graphics2d/0.12/4b1aaba76385f53b2bd0de4a11066414a3173579/graphics2d-0.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-emoji",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-emoji",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-emoji/0.35.10/7c96538d6ea3770610a462632397f546a597c5c1/flexmark-ext-emoji-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-emoji",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-emoji/0.35.10/21624bb970530ecc009e427324a1f6d51a570606/flexmark-ext-emoji-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-jekyll-tag",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-jekyll-tag",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-jekyll-tag/0.35.10/33ba4cebd37247bdaedaecdc5bb7a6b394f78241/flexmark-ext-jekyll-tag-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-jekyll-tag",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-jekyll-tag/0.35.10/5912d497e3d70ef79ca420422c354501fdafe5b5/flexmark-ext-jekyll-tag-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.openhtmltopdf",
+                    "name": "openhtmltopdf-pdfbox",
+                    "version": "0.0.1-RC13",
+                    "artifacts": [
+                        {
+                            "name": "openhtmltopdf-pdfbox",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.openhtmltopdf/openhtmltopdf-pdfbox/0.0.1-RC13/11d082f6959e07f470f0449462fd1629e5c962d6/openhtmltopdf-pdfbox-0.0.1-RC13.jar"
+                        },
+                        {
+                            "name": "openhtmltopdf-pdfbox",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.openhtmltopdf/openhtmltopdf-pdfbox/0.0.1-RC13/defc7aea267c6c07c6fc005eb059704bf2fc0675/openhtmltopdf-pdfbox-0.0.1-RC13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-youtube-embedded",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-youtube-embedded",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-youtube-embedded/0.35.10/a57289d2a8f12c92b67d76d51e9bec4e24b7b7e0/flexmark-ext-youtube-embedded-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-youtube-embedded",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-youtube-embedded/0.35.10/f14d3a33edc6394d8136ba33ea2d4ca4041bca5f/flexmark-ext-youtube-embedded-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.nibor.autolink",
+                    "name": "autolink",
+                    "version": "0.6.0",
+                    "artifacts": [
+                        {
+                            "name": "autolink",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.nibor.autolink/autolink/0.6.0/3986d016a14e8c81afeec752f19af29b20e8367b/autolink-0.6.0.jar"
+                        },
+                        {
+                            "name": "autolink",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.nibor.autolink/autolink/0.6.0/299be229ef8136b8331a2ecc86c73840adbc06a2/autolink-0.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vladsch.flexmark",
+                    "name": "flexmark-ext-abbreviation",
+                    "version": "0.35.10",
+                    "artifacts": [
+                        {
+                            "name": "flexmark-ext-abbreviation",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-abbreviation/0.35.10/38d86392b30d175b43a7c12d0153d01a6613635d/flexmark-ext-abbreviation-0.35.10.jar"
+                        },
+                        {
+                            "name": "flexmark-ext-abbreviation",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.vladsch.flexmark/flexmark-ext-abbreviation/0.35.10/21578ffec716f141e5ac76ebd91bac7c79e3a4bd/flexmark-ext-abbreviation-0.35.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.13/1.2.0/f6abd60d28c189f05183b26c5363713d1d126b83/scala-xml_2.13-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.13/1.2.0/7a7c99769f3823091a150378f37a1d7b7ed73055/scala-xml_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.ibm.icu",
+                    "name": "icu4j",
+                    "version": "59.1",
+                    "artifacts": [
+                        {
+                            "name": "icu4j",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/59.1/6f06e820cf4c8968bbbaae66ae0b33f6a256b57f/icu4j-59.1.jar"
+                        },
+                        {
+                            "name": "icu4j",
+                            "classifier": "sources",
+                            "path": "/Users/ole.magnus.aker/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/59.1/385775a72d11294da16e8cb7c691785c8ed03520/icu4j-59.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
